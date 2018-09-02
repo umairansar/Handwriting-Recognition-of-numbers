@@ -18,6 +18,6 @@ During the building, there were a number of decisions to be made.  Since there a
 
 I used Adam Optimzer over Gradient Descent since the using former jump blasted the accuracy from 84% to 92% straight. This can also be attributed to the Adam Optimzer ability to vary (reduce) learning rate as the epoch number increases.
 
-
+#### Dataset Link : http://yann.lecun.com/exdb/mnist/
 
 
