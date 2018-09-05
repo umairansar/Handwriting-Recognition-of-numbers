@@ -16,7 +16,7 @@ I have uploaded the code with this repository and you will see the same flow the
 ### Challenges:
 
 1) During the building, there were a number of decisions to be made.  Since there are a number of laber encoders availible, you need to select one that suits to your requirement. Label Encoder, One Hot Encoding, Local Binarizer are all kinds of encoder. 
-Label Encoder allots integer values to labels and that might interfere with the significance of a label as a label with larger nunber encoded might become more significant in the eyes of the model; thus, biasing the predicion. Local binarizer is used to encode string labels.
+Label Encoder allots integer values to labels and that might interfere with the significance of a label as a label with larger number encoded might become more significant in the eyes of the model, thus biasing the predicion. Local binarizer is used to encode string labels.
 
 2) Using Gradient Descent optimzer might explode the cost values(i.e. NaN). This can also be attributed to the Adam Optimzer ability to vary (reduce) learning rate as the epoch number increases.
 
