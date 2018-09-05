@@ -26,13 +26,15 @@ Label Encoder allots integer values to labels and that might interfere with the 
 
 2) Use Adam Optimizer. This can also be attributed to the Adam Optimizer ability to vary (reduce) learning rate as the epoch number increases.
 
-### Final Outcome:
+### Model Accuracy:
 The model was successfully trained on 50k images from MNIST dataset, returning an accuracy of 92.09%
 
-### Future Work:
+### Industry Application:
 This single object image classification can be revamped to recognize multiple numbers within an image, and this technique is already being used in text recognition softwares.
 
 #### Dataset Link : http://yann.lecun.com/exdb/mnist/
+
+#### This repository can also be accesed at umuzworld.com
 
 
 
